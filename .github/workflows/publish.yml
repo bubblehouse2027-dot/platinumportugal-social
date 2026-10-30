@@ -1,0 +1,55 @@
+name: Publish scheduled posts
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes; posts go out at their Lisbon time (19:30 weekdays, 10:00 weekends)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = test the setup · dry-run = list what is due · only = publish one post now · run = publish what is due"
+        type: choice
+        options: [check, dry-run, only, run]
+        default: check
+      post:
+        description: "Post number (for mode only)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publish
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'run' }}"
+          POST="${{ github.event.inputs.post }}"
+          if [ "$MODE" = "only" ]; then
+            if [ -z "$POST" ]; then echo "ERROR: mode only needs a post number"; exit 1; fi
+            python publisher/publish.py run --only "$POST"
+          else
+            python publisher/publish.py "$MODE"
+          fi
+      - name: Save log of published posts
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain state)" ]; then
+            git config user.name "publisher-bot"
+            git config user.email "publisher-bot@users.noreply.github.com"
+            git add state && git commit -m "Published posts log" && git push
+          fi

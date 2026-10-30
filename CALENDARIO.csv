@@ -1,0 +1,33 @@
+﻿N.º;Data;Dia;Hora;Formato;Título;Pilar;Fixar;Em espera (hold);Motivo;Ficheiros
+1;2026-11-02;segunda;19:30;Imagem;O que é a PLATINUM;O que é;sim;;;media/01/01_2026-11-02_image_apresentacao.jpg
+2;2026-11-04;quarta;19:30;Reel;Ração que se parte à mão;O que é;;;;media/02/02_2026-11-04_reel_racao-parte-a-mao.mp4
+3;2026-11-06;sexta;19:30;Reel;Os cães do escritório;A loja e as pessoas;;;;media/03/03_2026-11-06_reel_caes-do-escritorio.mp4
+4;2026-11-08;domingo;10:00;Carrossel;Quanto custa a PLATINUM?;Números;sim;;;media/04/04_2026-11-08_carousel_quanto-custa_01.jpg | media/04/04_2026-11-08_carousel_quanto-custa_02.jpg | media/04/04_2026-11-08_carousel_quanto-custa_03.jpg | media/04/04_2026-11-08_carousel_quanto-custa_04.jpg | media/04/04_2026-11-08_carousel_quanto-custa_05.jpg
+5;2026-11-09;segunda;19:30;Reel;Como se faz a PLATINUM;Como funciona;;;;media/05/05_2026-11-09_reel_cozedura-3-passos.mp4
+6;2026-11-11;quarta;19:30;Carrossel;Como encomendar;Como funciona;sim;;;media/06/06_2026-11-11_carousel_como-encomendar_01.jpg | media/06/06_2026-11-11_carousel_como-encomendar_02.jpg | media/06/06_2026-11-11_carousel_como-encomendar_03.jpg | media/06/06_2026-11-11_carousel_como-encomendar_04.jpg | media/06/06_2026-11-11_carousel_como-encomendar_05.jpg
+7;2026-11-13;sexta;19:30;Reel;Alguém disse jantar?;Produto;;;;media/07/07_2026-11-13_reel_meatcrisp-alguem-disse-jantar.mp4
+8;2026-11-15;domingo;10:00;Reel;Carne fresca sem congelador;O que é;;;;media/08/08_2026-11-15_reel_sem-congelador.mp4
+9;2026-11-16;segunda;19:30;Carrossel;5 perguntas antes de comprar ração;Educação;;;;media/09/09_2026-11-16_carousel_5-perguntas-racao_01.jpg | media/09/09_2026-11-16_carousel_5-perguntas-racao_02.jpg | media/09/09_2026-11-16_carousel_5-perguntas-racao_03.jpg | media/09/09_2026-11-16_carousel_5-perguntas-racao_04.jpg | media/09/09_2026-11-16_carousel_5-perguntas-racao_05.jpg
+10;2026-11-18;quarta;19:30;Reel;Nº 1 no CheckForPet;Números;;;;media/10/10_2026-11-18_reel_n1-checkforpet.mp4
+11;2026-11-20;sexta;19:30;Reel;Click-Bits para treinar;Produto;;;;media/11/11_2026-11-20_reel_click-bits-treino.mp4
+12;2026-11-22;domingo;10:00;Imagem;Mostre-nos o seu cão;Comunidade;;;;media/12/12_2026-11-22_image_comunidade.jpg
+13;2026-11-23;segunda;19:30;Carrossel;Packs Mix;Números;;;;media/13/13_2026-11-23_carousel_packs-mix_01.jpg | media/13/13_2026-11-23_carousel_packs-mix_02.jpg | media/13/13_2026-11-23_carousel_packs-mix_03.jpg | media/13/13_2026-11-23_carousel_packs-mix_04.jpg
+14;2026-11-25;quarta;19:30;Reel;Como mudar para PLATINUM;Educação;;;;media/14/14_2026-11-25_reel_como-mudar.mp4
+15;2026-11-27;sexta;19:30;Imagem;Black Friday;Sazonal;;;;media/15/15_2026-11-27_image_black-friday.jpg
+16;2026-11-29;domingo;10:00;Reel;Poupe o ano todo;Números;;;;media/16/16_2026-11-29_reel_packs-mix-poupar.mp4
+17;2026-11-30;segunda;19:30;Carrossel;BARF ou PLATINUM?;Educação;;;;media/17/17_2026-11-30_carousel_barf-ou-platinum_01.jpg | media/17/17_2026-11-30_carousel_barf-ou-platinum_02.jpg | media/17/17_2026-11-30_carousel_barf-ou-platinum_03.jpg | media/17/17_2026-11-30_carousel_barf-ou-platinum_04.jpg
+18;2026-12-02;quarta;19:30;Reel;Fit-Sticks partem-se à mão;Produto;;;;media/18/18_2026-12-02_reel_fit-sticks.mp4
+19;2026-12-04;sexta;19:30;Reel;O que o meu cão pesquisa;Comunidade;;;;media/19/19_2026-12-04_reel_o-cao-pesquisa.mp4
+20;2026-12-06;domingo;10:00;Carrossel;Testado em laboratório;Números;;;;media/20/20_2026-12-06_carousel_testado-laboratorio_01.jpg | media/20/20_2026-12-06_carousel_testado-laboratorio_02.jpg | media/20/20_2026-12-06_carousel_testado-laboratorio_03.jpg | media/20/20_2026-12-06_carousel_testado-laboratorio_04.jpg
+21;2026-12-07;segunda;19:30;Carrossel;Um cachorro no Natal?;Sazonal;;;;media/21/21_2026-12-07_carousel_cachorro-natal_01.jpg | media/21/21_2026-12-07_carousel_cachorro-natal_02.jpg | media/21/21_2026-12-07_carousel_cachorro-natal_03.jpg | media/21/21_2026-12-07_carousel_cachorro-natal_04.jpg
+22;2026-12-09;quarta;19:30;Reel;Ceia de Natal: o que não dar;Sazonal;;;;media/22/22_2026-12-09_reel_ceia-de-natal.mp4
+23;2026-12-11;sexta;19:30;Reel;Dois presentes num só;Sazonal;;;;media/23/23_2026-12-11_reel_dois-presentes.mp4
+24;2026-12-13;domingo;10:00;Carrossel;Bolachas de Natal para cão;Sazonal;;;;media/24/24_2026-12-13_carousel_bolachas-natal_01.jpg | media/24/24_2026-12-13_carousel_bolachas-natal_02.jpg | media/24/24_2026-12-13_carousel_bolachas-natal_03.jpg | media/24/24_2026-12-13_carousel_bolachas-natal_04.jpg | media/24/24_2026-12-13_carousel_bolachas-natal_05.jpg
+25;2026-12-14;segunda;19:30;Reel;Jogos de procura;Educação;;;;media/25/25_2026-12-14_reel_jogos-de-procura.mp4
+26;2026-12-16;quarta;19:30;Reel;MeatCrisp visto de baixo;Produto;;;;media/26/26_2026-12-16_reel_meatcrisp-de-baixo.mp4
+27;2026-12-18;sexta;19:30;Reel;Natal com o comedouro cheio;Sazonal;;;;media/27/27_2026-12-18_reel_natal-comedouro-cheio.mp4
+28;2026-12-20;domingo;10:00;Carrossel;Cães sensíveis;Educação;;;;media/28/28_2026-12-20_carousel_caes-sensiveis_01.jpg | media/28/28_2026-12-20_carousel_caes-sensiveis_02.jpg | media/28/28_2026-12-20_carousel_caes-sensiveis_03.jpg | media/28/28_2026-12-20_carousel_caes-sensiveis_04.jpg
+29;2026-12-21;segunda;19:30;Reel;Orelhas limpas em 4 passos;Educação;;;;media/29/29_2026-12-21_reel_orelhas-limpas.mp4
+30;2026-12-23;quarta;19:30;Imagem;Horário de Natal;Sazonal;;;;media/30/30_2026-12-23_image_horario-natal.jpg
+31;2026-12-24;quinta;10:00;Imagem;Boas Festas;Sazonal;;;;media/31/31_2026-12-24_image_boas-festas.jpg
+32;2026-12-27;domingo;10:00;Reel;Passagem de ano e fogo de artifício;Sazonal;;;;media/32/32_2026-12-27_reel_fogo-de-artificio.mp4
