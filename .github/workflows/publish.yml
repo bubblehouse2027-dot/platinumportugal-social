@@ -1,8 +1,7 @@
 name: Publish scheduled posts
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes; posts go out at their Lisbon time (19:30 weekdays, 10:00 weekends)
+  # schedule removed 2026-11-24: this client now runs on the autopilot-moinho engine
   workflow_dispatch:
     inputs:
       mode:
